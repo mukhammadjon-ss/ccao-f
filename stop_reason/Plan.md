@@ -4,7 +4,7 @@ We are learning about Claude Agent SDK
 ## Requirements
 - Must use the claude-agent-sdk
 - Typescript
-- lib/sdk_parser to format messagings
+- lib/sdk_parser (project root) to format messagings
 
 ## Goal
 Show audience how `stop_reason` works within the Claude Agent SDK

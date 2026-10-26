@@ -1,5 +1,5 @@
 import { query } from "@anthropic-ai/claude-agent-sdk";
-import { logMessage } from "./lib/sdk_parser.ts";
+import { logMessage } from "../lib/sdk_parser.ts";
 
 const prompt =
   "What's the weather in Tashkent and London right now? " +
