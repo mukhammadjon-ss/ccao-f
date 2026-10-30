@@ -37,6 +37,8 @@ console.log(
   `Claude called ${toolUse.name} with ${JSON.stringify(toolUse.input)}`,
 );
 
+console.log(response)
+
 const reply = "Yes";
 
 messages.push(
@@ -57,4 +59,4 @@ const followup = await client.messages.create({
 
 // Claude uses the result to answer the original question.
 const finalText = followup.content.find((block) => block.type === "text")!;
-console.log(finalText.text);
+console.log(followup);
