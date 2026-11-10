@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "stop-reason": "tsx stop_reason/weather_agent.ts"
+    "stop-reason": "tsx stop_reason/weather_agent.ts",
+    "task-tool": "tsx task_tool/main.ts"
   },
   "repository": {
     "type": "git",
