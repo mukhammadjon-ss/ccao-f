@@ -3,3 +3,4 @@ dist/
 .env
 logs/
 .vscode/
+.claude/agent-memory-local/

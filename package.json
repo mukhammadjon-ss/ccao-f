@@ -6,7 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "stop-reason": "tsx stop_reason/weather_agent.ts",
-    "task-tool": "tsx task_tool/main.ts"
+    "task-tool": "tsx task_tool/main.ts",
+    "agent-definition": "tsx agent_definition/main.ts",
+    "parallel": "tsx parallel_agent_tool_calls/main.ts"
   },
   "repository": {
     "type": "git",
